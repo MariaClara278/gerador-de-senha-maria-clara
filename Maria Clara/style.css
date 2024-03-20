@@ -1,0 +1,53 @@
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162e;
+    --fundo-senha: #00244d;
+    --fundo-texto: #001E40;
+    --borda: #0075ff;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
+}
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+*{
+    font-weight: 400
+}
+.conteudo-senha{
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+}
+#campo-senha:focus{
+    outline: none;
+}
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.conteudo-senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
