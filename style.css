@@ -80,7 +80,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
@@ -116,11 +115,7 @@ label{
     height: 20px;
     cursor: pointer;
 }
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-        flex-direction: row;
-    }
-}  
+
 .barra{
     background-color: var(--fundo-senha);
     height: 30px;
@@ -135,12 +130,23 @@ label{
     width: 25%;
     background-color: #E71B32; 
 }
-.parametro-senha-textos{
-    display: flex;
-    justify-content: space-between;
+.media{
+    background-color: #FAF408;
+    width: 50%;
 }
 .forte{
     background-color: #00FF85;
     width: 100%;
 }
 
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
